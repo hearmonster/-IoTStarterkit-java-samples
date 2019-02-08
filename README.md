@@ -38,6 +38,7 @@ Drop a 'sample.properties' file into: send-measure/target
 Or within Eclipse - run as an "External Tool"
 >> External Tools (button)(looks like a green 'play' button but with a red suitcase) >> External Tool Configurations...
 >> RMC on 'Program' >> New Configuration
+
 Property | Value
 -------- | -----
 Name: | Java jar
