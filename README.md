@@ -33,11 +33,15 @@ The 'install' goal produces four jars, only two of which are usable
 
 ## Preconfigure (prior to run)
 Drop a 'sample.properties' file into: send-measure/target
+
 (You'll find a template file here: send-measure/src/main/java/resources/sample.properties)
 
 Or within Eclipse - run as an "External Tool"
+
 >> External Tools (button)(looks like a green 'play' button but with a red suitcase) >> External Tool Configurations...
+
 >> RMC on 'Program' >> New Configuration
+
 
 Property | Value
 -------- | -----
@@ -51,7 +55,9 @@ The install produces four jars, only two of which are usable
 * send-measure/target/send-measure.jar
 * send-command/target/send-command.jar
 
+
 command line: use "java -jar send-command.jar" to run
+
 Eclipse:  RMC on Project >> External Tools (button) >> "Java jar"
 
 
