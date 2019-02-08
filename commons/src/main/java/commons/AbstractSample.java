@@ -120,6 +120,7 @@ public abstract class AbstractSample {
 		File jar = new File(AbstractSample.class.getProtectionDomain().getCodeSource().getLocation().getPath());
 		String path = jar.getParentFile().getAbsolutePath().concat(System.getProperty("file.separator"))
 			.concat(CONFIGURATIONS_FILE_NAME);
+		Console.printText("Looking for properties in: " + path);
 		try {
 			path = URLDecoder.decode(path, Constants.DEFAULT_ENCODING.name());
 		} catch (UnsupportedEncodingException e) {
